@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cryparion-Pizza-Shop/static/css/main.70fbec58.css",
-    "main.js": "/Cryparion-Pizza-Shop/static/js/main.108eb992.js",
+    "main.js": "/Cryparion-Pizza-Shop/static/js/main.1a8bb3ee.js",
     "static/js/453.bb828c5d.chunk.js": "/Cryparion-Pizza-Shop/static/js/453.bb828c5d.chunk.js",
     "static/media/text.png": "/Cryparion-Pizza-Shop/static/media/text.cb07b59a51aa5b49bc9a.png",
     "static/media/pizza.png": "/Cryparion-Pizza-Shop/static/media/pizza.98c3c898338f4618275b.png",
@@ -20,11 +20,11 @@
     "static/media/arrow.png": "/Cryparion-Pizza-Shop/static/media/arrow.c89f62c40841bf985d62.png",
     "index.html": "/Cryparion-Pizza-Shop/index.html",
     "main.70fbec58.css.map": "/Cryparion-Pizza-Shop/static/css/main.70fbec58.css.map",
-    "main.108eb992.js.map": "/Cryparion-Pizza-Shop/static/js/main.108eb992.js.map",
+    "main.1a8bb3ee.js.map": "/Cryparion-Pizza-Shop/static/js/main.1a8bb3ee.js.map",
     "453.bb828c5d.chunk.js.map": "/Cryparion-Pizza-Shop/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70fbec58.css",
-    "static/js/main.108eb992.js"
+    "static/js/main.1a8bb3ee.js"
   ]
 }
