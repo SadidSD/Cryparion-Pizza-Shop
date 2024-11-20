@@ -1,4 +1,5 @@
 {
+  "homepage": "https://SadidSD.github.io/Cryparion-Pizza-Shop",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -11,9 +12,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://your-username.github.io/your-repository-name"
-
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +43,4 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
-  
-
 }

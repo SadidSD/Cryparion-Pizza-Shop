@@ -4,8 +4,6 @@ import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import { BrowserRouter as Router,} from "react-router-dom";
-
 
 function App() {
   const homeref = useRef(null);
@@ -20,18 +18,18 @@ function App() {
   };
 
   return (
-    <Router>
+    <>
       <Navbar
-        onHomeClick={()=> scrollToSection(homeref)}
+        onHomeClick={() => scrollToSection(homeref)}
         onMenuClick={() => scrollToSection(menuRef)}
         onAboutClick={() => scrollToSection(aboutRef)}
         onContactClick={() => scrollToSection(contactRef)}
       />
-      <div id="homeSection" ref={homeref} >
-      <Home 
-      onAboutClick={() => scrollToSection(aboutRef)}
-      onMenuClick={() => scrollToSection(menuRef)}
-      />
+      <div id="homeSection" ref={homeref}>
+        <Home 
+          onAboutClick={() => scrollToSection(aboutRef)}
+          onMenuClick={() => scrollToSection(menuRef)}
+        />
       </div>
       <div id="menuSection" ref={menuRef}>
         <Menu />
@@ -42,7 +40,7 @@ function App() {
       <div id="contactSection" ref={contactRef}>
         <Contact />
       </div>
-    </Router>
+    </>
   );
 }
 
