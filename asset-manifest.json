@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Cryparion-Pizza-Shop/static/css/main.70fbec58.css",
+    "main.js": "/Cryparion-Pizza-Shop/static/js/main.108eb992.js",
+    "static/js/453.bb828c5d.chunk.js": "/Cryparion-Pizza-Shop/static/js/453.bb828c5d.chunk.js",
+    "static/media/text.png": "/Cryparion-Pizza-Shop/static/media/text.cb07b59a51aa5b49bc9a.png",
+    "static/media/pizza.png": "/Cryparion-Pizza-Shop/static/media/pizza.98c3c898338f4618275b.png",
+    "static/media/order.png": "/Cryparion-Pizza-Shop/static/media/order.cbae328e401e8c1606b7.png",
+    "static/media/Marinara.png": "/Cryparion-Pizza-Shop/static/media/Marinara.005f1c23664232f03799.png",
+    "static/media/pizzaboard.png": "/Cryparion-Pizza-Shop/static/media/pizzaboard.91a114638d9ad4ece6f0.png",
+    "static/media/Siena.png": "/Cryparion-Pizza-Shop/static/media/Siena.f1deff1064f0deb5fbec.png",
+    "static/media/paper.png": "/Cryparion-Pizza-Shop/static/media/paper.2ad87a7c3992a07df398.png",
+    "static/media/shop.webp": "/Cryparion-Pizza-Shop/static/media/shop.c338fd307eaffde7a2d2.webp",
+    "static/media/aboutbg.webp": "/Cryparion-Pizza-Shop/static/media/aboutbg.571f14f72c69f60490fa.webp",
+    "static/media/wooden.webp": "/Cryparion-Pizza-Shop/static/media/wooden.cbf6247a9383bb2a6206.webp",
+    "static/media/instagram.png": "/Cryparion-Pizza-Shop/static/media/instagram.0c59daddf503027c2368.png",
+    "static/media/Bianca.png": "/Cryparion-Pizza-Shop/static/media/Bianca.d4c924a78853c95e70f5.png",
+    "static/media/blurred.jpg": "/Cryparion-Pizza-Shop/static/media/blurred.16d0558b9ec18c55f73f.jpg",
+    "static/media/cryparion.png": "/Cryparion-Pizza-Shop/static/media/cryparion.dbc46bf1541e0fbcb774.png",
+    "static/media/arrow.png": "/Cryparion-Pizza-Shop/static/media/arrow.c89f62c40841bf985d62.png",
+    "index.html": "/Cryparion-Pizza-Shop/index.html",
+    "main.70fbec58.css.map": "/Cryparion-Pizza-Shop/static/css/main.70fbec58.css.map",
+    "main.108eb992.js.map": "/Cryparion-Pizza-Shop/static/js/main.108eb992.js.map",
+    "453.bb828c5d.chunk.js.map": "/Cryparion-Pizza-Shop/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70fbec58.css",
+    "static/js/main.108eb992.js"
+  ]
+}
