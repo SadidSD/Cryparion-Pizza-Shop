@@ -1,0 +1,9 @@
+.page{
+    height: 100vh;
+    background-image: url('../pictures/blurred.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap:120px;
+
+}

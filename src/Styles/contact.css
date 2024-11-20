@@ -1,0 +1,105 @@
+.page3 {
+    height: 100vh;
+    background-image: url('../pictures/blurred.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+.connect{
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect h2{
+    color: #F5F5DC;
+    font-family: "Carter One", system-ui;
+    font-size: 60px;
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black,  
+        -1px 1px 0 black,  
+        1px 1px 0 black;   
+}
+
+.connect button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.social{
+    position: absolute;
+    left : 30px;
+    top:500px
+}
+
+.social h2{
+    color: #F5F5DC;
+    font-family: "Carter One", system-ui;
+    font-size: 60px;
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black,  
+        -1px 1px 0 black,  
+        1px 1px 0 black;   
+}
+
+.location{
+    position: absolute;
+    top:500px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location h2{
+    color: #F5F5DC;
+    font-family: "Carter One", system-ui;
+    font-size: 60px;
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black,  
+        -1px 1px 0 black,  
+        1px 1px 0 black;   
+
+}
+.location img{
+    height: 80px;
+    width: auto;
+}
+
+.location img:hover{
+    background-color: rgb(180, 152, 100);
+    transform: translateY(-2px); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+}
+.icon{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    left: 70px;
+
+}
+
+.icon img{
+    height: 80px;
+    width: auto;
+}
+
+.icon img:hover{
+    background-color: rgb(180, 152, 100);
+    transform: translateY(-2px); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+}
+

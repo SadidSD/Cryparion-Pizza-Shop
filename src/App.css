@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel:wght@400..900&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel:wght@400..900&family=Kalam:wght@300;400;700&family=Young+Serif&display=swap');
+
+body {
+  font-family: "Carter One", system-ui;
+  
+}

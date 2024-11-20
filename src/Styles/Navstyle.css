@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgba(207, 193, 163, 0.8); /* Semi-transparent white */
+  color: #333; /* Dark text color for readability */
+  height: 60px;
+  position: fixed; /* Fixed position for scroll visibility */
+  width: 100%;
+  top: 0;
+  transition: top 0.3s ease;
+  z-index: 1000;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.navbar.hidden {
+  transform: translateY(-100%); /* Moves navbar up and off-screen */
+  transition: transform 0.3s ease;
+}
+
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  font-family:"Kalam", cursive;
+}
+
+.leftSide img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  /* margin-left: auto; */
+}
+
+.rightSide {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  /* margin-left: auto; */
+  right: 70px;
+}
+
+.navbar a {
+  color: #333; /* Dark color for links */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Light hover effect */
+  color: #000; /* Slightly darker text on hover */
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .rightSide {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    z-index: 1000;
+    height: 100vh;
+    background-color: rgb(175, 166, 166);
+    align-items: center;
+  }
+
+  .rightSide.open {
+    display: flex;
+  }
+
+  .rightSide a {
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+}

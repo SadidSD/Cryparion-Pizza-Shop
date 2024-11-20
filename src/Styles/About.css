@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+.page1{
+    height: 100vh;
+    background-image: url('../pictures/aboutbg.webp');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.shop img{
+    position: absolute;
+    top:100px;
+    left:100px;
+    height: 450px;
+    width: auto;
+    z-index: 10;
+    border: 5px solid white;
+}
+.paper{
+    position: relative;
+    top: 430px;
+    left:930px;
+}
+
+.paper img{
+    position: absolute;
+    height: 450px;
+    border: 5px solid white;
+}
+
+.paper h2{
+ position: absolute;
+ left: 270px;
+ top: 30px;
+  z-index: 10;
+  white-space: nowrap;
+  font-family: "Kalam", cursive;
+}
+
+.paper p{
+    position: absolute;
+    white-space: nowrap;
+    font-family: "Kalam", cursive;
+    font-size: 25px;
+    top: 120px;
+    left: 20px;
+}

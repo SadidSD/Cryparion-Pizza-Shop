@@ -1,0 +1,72 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../pictures/wooden.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    position: relative; 
+}
+
+.text img {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 600px;
+    width: auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    transform: rotate(8deg);
+    transition: transform 0.3s ease, height 0.3s ease,;
+}
+
+
+.text img:hover{
+    transform: rotate(0deg);
+    height: 800px;
+    width: auto;
+}
+.pizza {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    margin-left: auto;
+}
+
+#order {
+    height: 250px; /* Increased for better visibility */
+    width: auto;
+    position: absolute;
+    top: 80px;
+    right: 400px;
+    transform: rotate(8deg);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, height 0.3s ease,;
+    z-index: 10;
+}
+
+#order:hover{
+    transform: rotate(0deg);
+    height:310px;
+    width: auto;
+    z-index: 10;
+}
+
+#arrow {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    right: 260px;
+    top: 330px;
+}
+
+#pizzapic {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    right: 50px;
+    top: 500px;
+}

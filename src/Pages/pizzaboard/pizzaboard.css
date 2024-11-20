@@ -1,0 +1,71 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 550px;
+    height: 920px;
+    overflow: hidden; 
+
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:300px;
+    z-index: 1;
+  }
+  
+  .pizzaboard {
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  
+  .pizzapic {
+    width: 220px;
+    height: auto;
+    border: 2px solid black;
+    
+  }
+  
+  h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+  }
+  
+  .price{
+    font-size: 30px;
+  }
+
+  button {
+    background-color: rgb(207, 169, 97);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 45px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 25px; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(180, 152, 100);
+    transform: translateY(-2px); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+  }
+  
+  button:active {
+    transform: translateY(1px); 
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); 
+  }
